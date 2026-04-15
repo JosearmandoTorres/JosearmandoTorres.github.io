@@ -12,11 +12,11 @@
     /* ── Research page: wide two-column ── */
     .research-page {
       display: grid;
-      grid-template-columns: 5fr 3fr;
+      grid-template-columns: 1fr 1fr;
       gap: 0;
-      max-width: 1140px;
+      max-width: 1400px;
       margin: 0 auto;
-      padding: 5rem 3rem 8rem;
+      padding: 1.5rem 2rem 8rem 6rem;
       min-height: calc(100vh - var(--nav-h));
       align-items: start;
     }
@@ -24,6 +24,7 @@
     /* ── Left: items ── */
     .research-col {
       padding-right: 5rem;
+      max-width: 560px;
     }
 
     .research-item {
@@ -63,12 +64,12 @@
     /* ── Right: sticky photo ── */
     .research-photo-col {
       position: sticky;
-      top: calc(var(--nav-h) + 2rem);
-      padding-top: 3.5rem; /* align with items start */
+      top: calc(var(--nav-h) + 0.5rem);
+      padding-top: 0.5rem;
     }
 
     .research-photo-col img {
-      width: 100%;
+      width: 82%;
       display: block;
       filter: saturate(0.85);
     }
